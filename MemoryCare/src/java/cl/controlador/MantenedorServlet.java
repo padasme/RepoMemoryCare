@@ -39,6 +39,7 @@ public class MantenedorServlet extends HttpServlet {
             Map<String, String> mapMensajes = new HashMap<>();
             String mensaje="";        
             int i = 0;//Heinz
+            int z=0;//asdasda
             char opcionEstado=String.valueOf(request.getParameter("opcionEstado")).charAt(0);
             antecedente.setEstado(opcionEstado);
             if (request.getParameter("tipo_antecedente_id")!= null) {
