@@ -42,6 +42,7 @@ public class MantenedorServlet extends HttpServlet {
             int z=0;//asdasda
             int zz=0;//sadasdasda
             int hh=0;//padasme
+            int ff0=0;//
             char opcionEstado=String.valueOf(request.getParameter("opcionEstado")).charAt(0);
             antecedente.setEstado(opcionEstado);
             if (request.getParameter("tipo_antecedente_id")!= null) {
